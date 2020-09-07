@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  <!--allow us to  add new information to our html pages, recommended to add them, and its good for mobile as well, there is anither tag called responsive meta tag in bootstrap that is good for mobile -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="container d-flex d-flex align-items-center h-100">  <!--if we use ontainer class, bootstrap will align it items as per default as boot strap demand with same alignment, it will make it at the center, and have the size equals to total row and biggest-->
+    <div class="row">
+    <header class="text-center col-12"><h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>  <!--we can change ths style through oiur custom css, or use already made by bootstrap by inserting class with specific keywords-->
+    </header>
+
+    <div class="buffer col-12"></div>  <!--or we can use buffer class in section and specify margin-->
+
+    <section class="text-center col-12" >
+
+    <hr>  <!--this is a horizontal line-->
+    <a href="https://mailchi.mp/cc170d3f1860/ztmstudents"><button class="btn btn-primary btn-xl text-uppercase">Find Out More</button></a> <!--why in bootstrap specify the type of the button, although btn-xl is not separated by a comma or anything but html only need certain keywords from the whoel sentence, so it is very importnt to use differenet words!, or if still want to use the same words, use dashes or underscore to denote one keyword-->
+
+    </section>   <!--in a container, if we dont specify how many grids in column do we want, we will get less than that and inconsistent between divided parts, so we always need to specify how many do we need to specify, in a container, the size of it equals the max of total height of items and the biggest width of one of the items-->
+
+
+  </div>
+  </div>
+  </body>
+</html>
